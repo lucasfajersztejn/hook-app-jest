@@ -14,7 +14,6 @@ describe('Pruebas en <MainApp />', () => {
     );
 
     expect( screen.getByText('HomePage') ).toBeTruthy();
-
     // screen.debug();
     
   });
@@ -28,7 +27,6 @@ describe('Pruebas en <MainApp />', () => {
     );
 
     expect( screen.getByText('LoginPage') ).toBeTruthy();
-
     // screen.debug();
 
   });
